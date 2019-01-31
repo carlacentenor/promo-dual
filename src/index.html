@@ -9,7 +9,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="assets/icons/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <title>Promoción All the meats </title>
+  <title>Pizza Lovers</title>
 </head>
 
 <body>
@@ -25,58 +25,302 @@
           <div class="col-2">
             <img class="promo-principal-section__image" src="assets/images/pizza.svg" alt="pizza-icon">
           </div>
-          <div class="col-10">All the Meats + postre</div>
+          <div class="col-10">Pizza Lovers</div>
         </div>
       </div>
       <div class="text-center p-3 promo-principal-section__detail">
-        <p class="mb-0">Llévate 1 Pizza All the Meats en tamaño familiar y de regalo obtén 1 porción de rollitos de
-          canela a
-          <span class="promo-principal-section__detail--bold">S/ 45.90</span> </p>
+        <p class="mb-0">Llévate todas nuestras pizzas grandes y familiares con 50% de descuento
+          </p>
 
         <p class="mb-0">*Precios no válidos en aeropuerto. Sujeto a disponibilidad de tienda</p>
+      </div>
+    
+    </div>
+    <div class="box-size container mb-3">
+      <div class="box-size__border">
+        <p class="box-size__border__name pl-3 pt-2 mb-0">Elige Tamaño</p>
+        <div>
+          <form id=radiotipo class="text-center">
+            <div class="row">
+              <div class="col-6 pr-0">
+                <input type="radio" name="tipo" value="Grande" checked id="rb1" />
+                <label for="rb1" class="pizza-count">Grande (8 slices) </label>
+              </div>
+              <div class="col-6 pl-0">
+                <input type="radio" name="tipo" value="Familiar" id="rb2" />
+                <label for="rb2" class="pizza-count">Familiar (10 slices)</label>
+              </div>
+            </div>
+
+          </form>
+        </div>
       </div>
 
     </div>
 
     <div class=" container pizza">
-
-
-
+         
+      <div class="text-center">
+        <p class="font--title title--select-two mb-0">Elige tus pizzas</p>
+      </div>
 
       <!-- Pizzas Grandes -->
       <div class="container  pb-3">
 
-        <div class="row container-pizza pizza-two">
-
-
-          <div class="pizza-item">
-            <div>
-              <div class="title">
-                <p class="mb-0 pizza__name text-center">All the meats</p>
+          <div class="row container-pizza pizza-two">
+              <div class="pizza-item">
+                <div>
+                  <div class="title">
+                    <p class="mb-0 pizza__name text-center">Mozzarella</p>
+                  </div>
+                </div>
+                <div><img class="img-fluid" src="assets/images/pizzas/mozarella.jpg"></div>
+                <div><p class="text-center mb-0 pizza__name">S/ 20,40</p></div>
+                <div>
+                  <p class="pizza--font text-center mb-2 mt-2">Queso mozzarella extra</p>
+                </div>
+                <div class="botones">
+                  <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                  <div class="text-center pizza__number-span">0</div>
+                  <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                </div>
               </div>
-            </div>
-            <div><img class="img-fluid" src="assets/images/pizzas/all-the-meats.jpg"></div>
-            <div>
-              <p class="pizza--font text-center mb-2 mt-2">Pepperoni, salchicha de cerdo, jamón, tocino, carne de res y
-                queso mozzarella</p>
-            </div>
+              <div class="pizza-item">
+                <div>
+                  <div class="title">
+                    <p class="mb-0 pizza__name text-center">Americana</p>
+                  </div>
+                </div>
+                <div><img class="img-fluid" src="assets/images/pizzas/Americana.png"></div>
+                <div><p class="text-center mb-0 pizza__name">S/ 20,40</p></div>
+                <div>
+                  <p class="pizza--font text-center mb-2 mt-2">Jamón y queso mozzarella
 
-          </div>
-          <div class="pizza-item">
-            <div>
-              <div class="title">
-                <p class="mb-0 pizza__name text-center">CINNAMON ROLLS</p>
+                  </p>
+                </div>
+                <div class="botones">
+                  <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                  <div class="text-center pizza__number-span">0</div>
+                  <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                </div>
               </div>
-            </div>
-            <div><img class="img-fluid" src="assets/images/postres/cinnamonrolls.jpg"></div>
-            <div>
-              <p class="pizza--font text-center mb-2 mt-2">6 riquísimos rolls enrollados con dulce de canela, cubiertos
-                con azúcar glaseada.</p>
-            </div>
+              <div class="pizza-item">
+                <div>
+                  <div class="title">
+                    <p class="mb-0 pizza__name text-center">Pepperoni</p>
+                  </div>
+                </div>
+                <div><img class="img-fluid" src="assets/images/pizzas/pepperoni.jpg"></div>
+                <div><p class="text-center mb-0 pizza__name">S/ 20,40</p></div>
+                <div>
+                  <p class="pizza--font text-center mb-2 mt-2">Pepperoni y queso mozzarella
 
-          </div>
+                  </p>
+                </div>
+                <div class="botones">
+                  <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                  <div class="text-center pizza__number-span">0</div>
+                  <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                </div>
+              </div>
+              <div class="pizza-item">
+                <div>
+                  <div class="title">
+                    <p class="mb-0 pizza__name text-center">Vegetariana</p>
+                  </div>
+                </div>
+                <div><img class="img-fluid" src="assets/images/pizzas/vegetariana.jpg"></div>
+                <div><p class="text-center mb-0 pizza__name">S/ 20,40</p></div>
+                <div>
+                  <p class="pizza--font text-center mb-2 mt-2">Tomates, champiñones, cebolla, pimientos, aceitunas negras y queso mozzarella
 
-        </div>
+                  </p>
+                </div>
+                <div class="botones">
+                  <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                  <div class="text-center pizza__number-span">0</div>
+                  <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                </div>
+              </div>
+              <div class="pizza-item">
+                <div>
+                  <div class="title">
+                    <p class="mb-0 pizza__name text-center">Hawaiana</p>
+                  </div>
+                </div>
+                <div><img class="img-fluid" src="assets/images/pizzas/hawaiana.jpg"></div>
+                <div><p class="text-center mb-0 pizza__name">S/ 22,90</p></div>
+                <div>
+                  <p class="pizza--font text-center mb-2 mt-2">Jamón, piña y queso mozzarella extra</p>
+                </div>
+                
+                <div class="botones">
+                  <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                  <div class="text-center pizza__number-span">0</div>
+                  <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                </div>
+              </div>
+
+   
+              <div class="pizza-item">
+                <div>
+                  <div class="title">
+                    <p class="mb-0 pizza__name text-center">Continentalle</p>
+                  </div>
+                </div>
+                <div><img class="img-fluid" src="assets/images/pizzas/continentalle.jpg"></div>
+                <div><p class="text-center mb-0 pizza__name">S/ 22,90</p></div>
+                <div>
+                  <p class="pizza--font text-center mb-2 mt-2">Jamón, cebolla, champiñones y queso mozarella</p>
+                </div>
+                
+                <div class="botones">
+                  <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                  <div class="text-center pizza__number-span">0</div>
+                  <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                </div>
+              </div>
+
+              <div class="pizza-item">
+                <div>
+                  <div class="title">
+                    <p class="mb-0 pizza__name text-center">Española</p>
+                  </div>
+                </div>
+                <div><img class="img-fluid" src="assets/images/pizzas/española.png"></div>
+                <div><p class="text-center mb-0 pizza__name">S/ 22,90</p></div>
+                <div>
+                  <p class="pizza--font text-center mb-2 mt-2">Chorizo, cebolla blanca, aceitunas verdes, aceitunas negras, champiñones, queso mozzarella y salsa de ajo en el fondo</p>
+                </div>
+                
+                <div class="botones">
+                  <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                  <div class="text-center pizza__number-span">0</div>
+                  <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                </div>
+              </div>
+              <div class="pizza-item">
+                    <div>
+                      <div class="title">
+                        <p class="mb-0 pizza__name text-center">VEGGIE DELIGHT</p>
+                      </div>
+                    </div>
+                    <div><img class="img-fluid" src="assets/images/pizzas/veggie-delight.png"></div>
+                    <div><p class="text-center mb-0 pizza__name">S/ 22,90</p></div>
+                    <div>
+                      <p class="pizza--font text-center mb-2 mt-2">Salsa Cremosa Espinaca Alfredo en la base, queso mozzarella, cebollas y champiñones</p>
+                    </div>
+                    
+                    <div class="botones">
+                      <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                      <div class="text-center pizza__number-span">0</div>
+                      <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                    </div>
+                  </div>
+                  <div class="pizza-item">
+                        <div>
+                          <div class="title">
+                            <p class="mb-0 pizza__name text-center">All the meats</p>
+                          </div>
+                        </div>
+                        <div><img class="img-fluid" src="assets/images/pizzas/all-the-meats.jpg"></div>
+                        <div><p class="text-center mb-0 pizza__name">S/ 27,90</p></div>
+                        <div>
+                          <p class="pizza--font text-center mb-2 mt-2">Pepperoni, salchicha de cerdo, jamón, tocino, carne de res y queso mozzarella</p>
+                        </div>
+                        <div class="botones">
+                          <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                          <div class="text-center pizza__number-span">0</div>
+                          <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                        </div>
+                      </div>
+                      <div class="pizza-item">
+                          <div>
+                            <div class="title">
+                              <p class="mb-0 pizza__name text-center">La Favorita de John</p>
+                            </div>
+                          </div>
+                          <div><img class="img-fluid" src="assets/images/pizzas/la-favorita-john.jpg"></div>
+                          <div><p class="text-center mb-0 pizza__name">S/ 27,90</p></div>
+                          <div>
+                            <p class="pizza--font text-center mb-2 mt-2">6 tipo de quesos,  salchicha, pepperoni y especias italianas</p>
+                          </div>
+                          <div class="botones">
+                            <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                            <div class="text-center pizza__number-span">0</div>
+                            <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                          </div>
+                        </div>
+                        <div class="pizza-item">
+                          <div>
+                            <div class="title">
+                              <p class="mb-0 pizza__name text-center">Sicilian Meats</p>
+                            </div>
+                          </div>
+                          <div><img class="img-fluid" src="assets/images/pizzas/sicilian-meats.jpg"></div>
+                          <div><p class="text-center mb-0 pizza__name">S/ 27,90</p></div>
+                          <div>
+                            <p class="pizza--font text-center mb-2 mt-2">Salame, chorizo, salchicha italiana, pepperoni y queso mozzarella</p>
+                          </div>
+                          <div class="botones">
+                            <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                            <div class="text-center pizza__number-span">0</div>
+                            <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                          </div>
+                        </div>
+                        <div class="pizza-item">
+                          <div>
+                            <div class="title">
+                              <p class="mb-0 pizza__name text-center">Chicken BBQ</p>
+                            </div>
+                          </div>
+                          <div><img class="img-fluid" src="assets/images/pizzas/Chicken-BBQ.png"></div>
+                          <div><p class="text-center mb-0 pizza__name">S/ 27,90</p></div>
+                          <div>
+                            <p class="pizza--font text-center mb-2 mt-2">Pollo, tocino, cebolla blanca, queso mozzarella y de base la salsa barbacoa inigualable</p>
+                          </div>
+                          <div class="botones">
+                            <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                            <div class="text-center pizza__number-span">0</div>
+                            <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                          </div>
+                        </div>
+                        <div class="pizza-item">
+                          <div>
+                            <div class="title">
+                              <p class="mb-0 pizza__name text-center">Hawaiian Chicken BBQ</p>
+                            </div>
+                          </div>
+                          <div><img class="img-fluid" src="assets/images/pizzas/hawaiianBBQ.jpg"></div>
+                          <div><p class="text-center mb-0 pizza__name">S/ 27,90</p></div>
+                          <div>
+                            <p class="pizza--font text-center mb-2 mt-2">Deliciosa base de salsa BBQ, pollo, tocino, cebolla blanca, piña y queso mozzarella</p>
+                          </div>
+                          <div class="botones">
+                            <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                            <div class="text-center pizza__number-span">0</div>
+                            <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                          </div>
+                        </div>
+                        <div class="pizza-item">
+                          <div>
+                            <div class="title">
+                              <p class="mb-0 pizza__name text-center">The Works</p>
+                            </div>
+                          </div>
+                          <div><img class="img-fluid" src="assets/images/pizzas/the-works.jpg"></div>
+                          <div><p class="text-center mb-0 pizza__name">S/ 27,90</p></div>
+                          <div>
+                            <p class="pizza--font text-center mb-2 mt-2">Pepperoni, salchicha italiana, jamón, pimientos verdes, cebolla blanca, champiñones, aceitunas negras y queso mozzarella</p>
+                          </div>
+                          <div class="botones">
+                            <div><button class="decrement pizza__button" "> <i class=" fas fa-minus"></i></button></div>
+                            <div class="text-center pizza__number-span">0</div>
+                            <div><button class="increment pizza__button"><i class="fas fa-plus"></i></button></div>
+                          </div>
+                        </div>
+                        
+            </div>
       </div>
 
     </div>
