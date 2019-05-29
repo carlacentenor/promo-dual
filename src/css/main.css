@@ -309,5 +309,17 @@ input[type=radio]:checked+label::before {
   color: #BB141A;
 }
 
+.only-pizza{
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 1fr;
 
+}
+
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*# sourceMappingURL=main.css.map */
